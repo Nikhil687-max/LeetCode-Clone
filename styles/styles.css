@@ -1,0 +1,128 @@
+.course-card{
+    display: inline-block;
+    background: #cf56ff;
+    background-size: 350px 800px; 
+    background-position: right center;
+    margin: 10px;
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+    padding-left: 25px;
+    box-shadow: 0 -10px 10px rgb(131, 131, 131);
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 0;
+    h2{
+        font-size: 35px;
+        color: white;
+        font-weight: 900;
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    p{
+        font-size: 20px;
+        color: white;
+        font-weight: 300;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+    .play{
+        background-color: #ffffff;
+        width: 50px;
+        align-items: center;
+        justify-items: center;
+        height: 50px;
+        border-radius: 35px;
+        margin: 215px;
+        padding: 15px;
+        .play{
+            background-color: #ffffff;
+            width: 50px;
+            align-items: center;
+            justify-items: center;
+            height: 50px;
+            border-radius: 35px;
+            margin: 0;
+            padding: 0;
+            border: 10px solid rgb(220, 219, 219);
+            
+        }
+        border: 10px solid whitesmoke;
+        
+    }
+}
+.course-card-info{
+    display: flex;
+    width: 275px;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 10px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 0;
+        margin: 0;
+        h3{
+            margin: 0;
+            padding: 0;
+        }
+    }
+    justify-content: space-around;
+    box-shadow: 0 10px 10px rgb(128, 128, 128);
+}
+.Featured{
+    display: flex;
+    justify-content: start;
+}
+.green-background{
+    background: rgb(42, 122, 42);
+    div{
+        margin: 0;
+        padding: 0;
+    }
+    h2{
+        margin-bottom: 0;
+    }
+}
+.yellow-card{
+    background: #de9309;
+    h2{
+        margin-bottom: 100px;
+    }
+}
+.black-card{
+    background: #1c1c1c;
+    h2{
+        margin-bottom: 60px;
+    }
+}
+.green-card{
+    background: rgb(42, 122, 42);
+    h2{
+        margin-bottom: 55px;
+    }
+}
+.blue-card{
+    background-color: rgb(1, 91, 171);
+    h2{
+        margin-bottom: 100px;
+    }
+}
+.light-blue{
+    background-color: rgb(41, 241, 238);
+    h2{
+        margin-bottom: 100px;
+    }
+}
+h2{
+    font-size: 50px;
+    opacity: 99%;
+    font-weight: 400;
+}
+.heading{
+    opacity: 60%;
+}
