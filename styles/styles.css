@@ -78,46 +78,6 @@
     display: flex;
     justify-content: start;
 }
-.green-background{
-    background: rgb(42, 122, 42);
-    div{
-        margin: 0;
-        padding: 0;
-    }
-    h2{
-        margin-bottom: 0;
-    }
-}
-.yellow-card{
-    background: #de9309;
-    h2{
-        margin-bottom: 100px;
-    }
-}
-.black-card{
-    background: #1c1c1c;
-    h2{
-        margin-bottom: 60px;
-    }
-}
-.green-card{
-    background: rgb(42, 122, 42);
-    h2{
-        margin-bottom: 55px;
-    }
-}
-.blue-card{
-    background-color: rgb(1, 91, 171);
-    h2{
-        margin-bottom: 100px;
-    }
-}
-.light-blue{
-    background-color: rgb(41, 241, 238);
-    h2{
-        margin-bottom: 100px;
-    }
-}
 h2{
     font-size: 50px;
     opacity: 99%;
@@ -125,4 +85,10 @@ h2{
 }
 .heading{
     opacity: 60%;
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.title{
+    background-color: #1c1c1c;
 }
